@@ -83,6 +83,7 @@ const pino = require('pino');
 const crypto = require('crypto');
 const chalk = require('chalk');
 const axios = require('axios');
+const readline = require('readline');
 const os = require('os');
 const hostname = os.hostname();
 const path = require("path");
